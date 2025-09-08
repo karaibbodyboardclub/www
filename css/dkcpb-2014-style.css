@@ -1,0 +1,93 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  background-color: #CCCC00;
+}
+.contest {
+  margin-bottom: 40px;
+}
+h1 {
+  color: #007bff;
+}
+.emoticon {
+  width:32px;
+}
+.flags {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h410 {
+  height: 410px;
+}
+.h500 {
+  height: 500px;
+}
+.flag {
+  width:100px;
+}
+.contest img {
+  max-width: 580px;
+  height: auto;
+}
+#photo-podium-dk {
+  border-radius: 24px;
+  width: 100%;
+  max-width: 560px;
+}
+#iframe-youtube {
+  width: 100%;
+  max-width: 560px;
+}
+#dkcpb-2014-affiche {
+  width: 640px;
+  height: 270px;
+  overflow: hidden;
+}
+#dkcpb-2014-affiche img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+}
+#logo-fb {
+  width: 160px;
+}
+a:link, a:visited {
+  color: blue;
+}
+.content-wrapper {
+  max-width:640px;
+  border-left: 2pt solid;
+  border-right: 2pt solid;
+  background-color: white;
+}
+p img, iframe {
+  display: block;
+  margin: 0 auto;
+}
+.marge-me {
+  margin: 10px  20px;
+}
+.center-me {
+  text-align: center;
+}
+.heat img {
+  max-width: 580px;
+}
+#photo-prone-battle-ex-aequo-1, #photo-prone-battle-ex-aequo-2 {
+  transition: transform 0.5s ease, z-index 0.5s ease;
+  cursor: pointer;
+}
+
+#photo-prone-battle-ex-aequo-1.zoomed,#photo-prone-battle-ex-aequo-2.zoomed {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(2);
+  z-index: 1000;
+}
+

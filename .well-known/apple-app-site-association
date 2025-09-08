@@ -1,0 +1,13 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "W393Y5VNPY.club.karaibbodyboard.anacaona",
+                "paths": [
+                    "/.well-known/apple-app-site-association/payment/*"
+                ]
+            }
+        ]
+    }
+}

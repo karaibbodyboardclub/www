@@ -1,0 +1,65 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  background-color: #00FFFF;
+}
+.contest {
+  margin-bottom: 40px;
+}
+h1 {
+  color: #007bff;
+}
+.contest img {
+  max-width: 580px;
+  height: auto;
+}
+#photo-podium-dk {
+  border-radius: 24px;
+  width: 100%;
+  max-width: 560px;
+}
+#iframe-youtube {
+  width: 100%;
+  max-width: 560px;
+}
+#dkcpb-2013-affiche {
+  width: 640px;
+  height: 170px;
+  overflow: hidden;
+}
+#dkcpb-2013-affiche img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+  object-position: 0 -170px;
+}
+#logo-fb {
+  width: 160px;
+}
+a:link, a:visited {
+  color: blue;
+}
+.content-wrapper {
+  max-width:640px;
+  border-left: 2pt solid;
+  border-right: 2pt solid;
+  background-color: white;
+}
+p img, iframe {
+  display: block;
+  margin: 0 auto;
+}
+.marge-me {
+  margin: 10px  20px;
+}
+.center-me {
+  text-align: center;
+}
+.heat img {
+  max-width: 580px;
+}
+
